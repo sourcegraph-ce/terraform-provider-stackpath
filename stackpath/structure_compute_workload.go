@@ -6,7 +6,7 @@ import (
 
 	"github.com/terraform-providers/terraform-provider-stackpath/stackpath/api/workload/workload_models"
 
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
